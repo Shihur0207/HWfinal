@@ -1,0 +1,126 @@
+* {
+  /*     border: solid 1px; */
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  font-family: "cwTeXHei", sans-serif;
+  letter-spacing: 0.5px;
+  font-color: #301c06;
+}
+/*
+.navbar-nav {
+  margin-left: 270px;
+}
+ */
+.container {
+  padding-top: 60px;
+}
+
+.topup {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.card1 {
+  padding-top: 40px;
+  text-align: center;
+  border: solid 10px #6c8cbf;
+  box-shadow: 0px 0px 5px rgba(176, 163, 70, 0.3);
+  transition: 0.5s;
+}
+.card1:hover {
+  box-shadow: 5px 5px 40px rgba(176, 163, 70, 0.4);
+  transform: translate(-5px, -5px);
+}
+
+.card2 {
+  margin-top: 80px;
+  padding-top: 40px;
+  text-align: center;
+  border: solid 10px #96d7c6;
+  box-shadow: 0px 0px 5px rgba(58, 120, 120, 0.3);
+  transition: 0.5s;
+}
+.card2:hover {
+  box-shadow: 5px 5px 40px rgba(58, 120, 120, 0.4);
+  transform: translate(-5px, -5px);
+}
+.card3 {
+  margin-top: 80px;
+  padding-top: 40px;
+  text-align: center;
+  border: solid 10px #5aa7a7;
+  box-shadow: 0px 0px 5px rgba(67, 125, 110, 0.3);
+  transition: 0.5s;
+}
+.card3:hover {
+  box-shadow: 5px 5px 40px rgba(67, 125, 110, 0.4);
+  transform: translate(-5px, -5px);
+}
+
+.card4 {
+  margin-top: 80px;
+  margin-bottom: 100px;
+  padding-top: 40px;
+  text-align: center;
+  border: solid 10px #e2d368;
+  box-shadow: 0px 0px 5px rgba(65, 94, 140, 0.3);
+  transition: 0.5s;
+}
+.card4:hover {
+  box-shadow: 5px 5px 40px rgba(65, 94, 140, 0.4);
+  transform: translate(-5px, -5px);
+}
+
+.toTop-arrow {
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 33%;
+  opacity: 0.6;
+  background: #000;
+  cursor: pointer;
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+}
+.toTop-arrow::before,
+.toTop-arrow::after {
+  width: 18px;
+  height: 5px;
+  border-radius: 3px;
+  background: #f90;
+  position: absolute;
+  content: "";
+}
+.toTop-arrow::before {
+  transform: rotate(-45deg) translate(0, -50%);
+  left: 0.5rem;
+}
+.toTop-arrow::after {
+  transform: rotate(45deg) translate(0, -50%);
+  right: 0.5rem;
+}
+.toTop-arrow:focus {
+  outline: none;
+}
+
+@font-face {
+  font-family: "cwTeXHei";
+  font-style: normal;
+  font-weight: 500;
+  src: url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.eot);
+  src: url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.eot?#iefix)
+      format("embedded-opentype"),
+    url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.woff2)
+      format("woff2"),
+    url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.woff) format("woff"),
+    url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.ttf)
+      format("truetype");
+}
